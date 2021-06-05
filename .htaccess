@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://lunakali.cl/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://lunakali.cl$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.lunakali.cl/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.lunakali.cl$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://lunakali.cl/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://lunakali.cl$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.lunakali.cl/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.lunakali.cl$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

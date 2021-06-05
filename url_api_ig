@@ -1,0 +1,21 @@
+https://api.instagram.com/oauth/authorize
+  ?client_id=242833590039218
+  &redirect_uri=https://www.lunakali.cl/auth
+  &scope=user_profile,user_media
+  &response_type=code
+
+
+  access_token: IGQVJYYUNFWmNtS3JHSVNuQ2RZARUt2RUtUSW5ZAT3BxWUpWSnhIYWtaNVRteHpvaW1kSy1tVG01OXZArNzRlbXpXdDE4cnppSWVXUjhFajBtWkFUWkl3QkVZAVjB1QXJSZA2licnJOVElrVUlKaWVmT2VvUUFFS2Q3TmQ0WXZAn
+  user_id: 17841405569642571
+
+    "id": "17841405569642571",
+    "username": "luna_kali"
+
+
+long live token
+ IGQVJVVG14ZA0I2cFBya1VBRVZAsR2hXTFpHMHdORTdoYzNHOW1uclpTS3ZAsQmVXQVplRUNVVDlfZAjFQSFRPTTNya2dqUFVUcjU3elpwaXdyQ3B2MVZAIZAy1wamZAyVjVkbVRFTm5xWlF3
+
+actualizar el token
+ https://graph.instagram.com/refresh_access_token
+  ?grant_type=ig_refresh_token
+  &access_token={long-lived-access-token}
